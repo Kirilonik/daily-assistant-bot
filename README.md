@@ -1,8 +1,6 @@
-# Cliobot - multimodal generative AI bot for chat platforms
+# DailyAssistant
 
-![Clio Bot](clio.jpg)
-
-Cliobot is a modular bot platform for generative AI agents. It's goal is to provide a simple, easy to use and extendable
+DailyAssistant is a modular bot platform for generative AI agents. It's goal is to provide a simple, easy to use and extendable
 platform for running generative AI agents that can handle audio, video, text and images, on any chat platform.
 
 It can be easily extend it to use multiple APIs and services, from Stable Diffusion to OpenAI, and you can run it on
@@ -15,7 +13,7 @@ rough and subject to multiple rewrites.
 
 ## The Basic
 
-Cliobot has two main working modes: __command mode__ or __LLM mode__
+DailyAssistant has two main working modes: __command mode__ or __LLM mode__
 
 In __command mode__, you interact by using __slash commands__ (messages starting with a /). It comes with a set default
 of slash commands and you can easily create yor own.
@@ -53,7 +51,7 @@ poetry run pytest
 
 ## Built-in commands
 
-Cliobot comes with a set of built-in commands that you can use out of the box. You can also easily add your own!
+DailyAssistant comes with a set of built-in commands that you can use out of the box. You can also easily add your own!
 
 ### /image
 
@@ -86,7 +84,7 @@ Chat with an LLM agent, including a backlog of context
 
 ## Command syntax
 
-Cliobot uses a simple prompt parsing system (common across apps such as Midjourney & others). It's based on the
+DailyAssistant uses a simple prompt parsing system (common across apps such as Midjourney & others). It's based on the
 following format:
 
 ```
@@ -119,7 +117,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Running Cliobot on Telegram
+### Running DailyAssistant on Telegram
 
 The bare minimum you'll need is an API Token for a Telegram bot. Please refer to
 the [official documentation](https://core.telegram.org/bots/tutorial#obtain-your-bot-token) for how to obtain an API
